@@ -2,6 +2,7 @@ $name = "vagrant-node-template"
 
 $script = <<SCRIPT
 echo starting installation
+echo "cd /vagrant" >> /home/vagrant/.bashrc
 apt-get update -y
 sudo apt-get install -y nodejs npm
 sudo ln -s /usr/bin/nodejs /usr/bin/node
