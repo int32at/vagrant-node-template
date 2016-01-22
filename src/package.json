@@ -1,0 +1,28 @@
+{
+  "name": "vagrant-node-template",
+  "version": "0.0.0",
+  "description": "A vagrant template to get started quickly with node.js development ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test --reporter=spec",
+    "test-watch": "mocha ./test --watch --reporter=min",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --ui bdd -R min -t 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/int32at/vagrant-node-template"
+  },
+  "keywords": [
+    "vagrant"
+  ],
+  "author": "int32at",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/int32at/vagrant-node-template/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "istanbul": "~0.4.2"
+  }
+}
