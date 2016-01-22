@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/int32at/vagrant-node-template"
+    "url": "https://github.com/int32at/vagrant-node-template.git"
   },
   "keywords": [
     "vagrant"
