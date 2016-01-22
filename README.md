@@ -24,15 +24,15 @@ Locally (dev):
 - istanbul
 
 ### Usage
-You can start editing the [module](src/index.js) right away. To execute your module/code you can use `node index.js`. If you are developing a server app, you might want your server restarted everytime you change the code - this is were you can `nodemon -L index.js` (note the -L parameter).
+You can start editing the [module](src/index.js) right away. To execute the module/code you can use `node index.js`. If you are developing a server app, you might want the server restarted everytime the code changes - this is were `nodemon -L index.js` can be used. (note the -L parameter).
 
 ### Testing
 
 - `npm test`:
-After you started writing your unit tests in the [test](src/test) directory, like [this](src/test/test.js) one, you can use `npm test` to execute all tests. It will give you a nice output where you can see which tests passed or failed.
+After you started writing some unit tests in the [test](src/test) directory, like [this](src/test/test.js) one, you can use `npm test` to execute all tests. It will print a nice output where you can see which tests passed or failed.
 
 - `npm run test-watch`:
-Pretty much the same as `npm test` but will watch for file changes, in tests or your actual code, and will rerun your test suite! The output is minimal, so its great if you have a terminal that runs in your editor.
+Pretty much the same as `npm test` but will watch for file changes, in tests or your actual code, and will rerun your test suite! The output is minimal, so its great if you run it in a terminal.
 
 - `npm run coverage`:
 Runs the complete test suite and creates a nice code coverage.
