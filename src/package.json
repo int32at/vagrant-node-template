@@ -4,9 +4,9 @@
   "description": "A vagrant template to get started quickly with node.js development ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test --reporter=spec",
-    "test-watch": "mocha ./test --watch --reporter=min",
-    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --ui bdd -R min -t 5000"
+    "test": "mocha ./test --reporter=spec --recursive",
+    "test-watch": "mocha ./test --watch --reporter=min --recursive",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --ui bdd -R min -t 5000 --recursive"
   },
   "repository": {
     "type": "git",
